@@ -1,0 +1,179 @@
+﻿ ======================================ASSIGNMENT 1==================================================
+
+
+Q 1 a)
+date =day date time will be shown
+date +%a =short name of day will be shown only
+date +%A =full name of day will be shown only
+date +%d =short date will be shown only
+date +%D =full date format will be shown with forward slashes only
+date +%b =short name of month will be shown only
+date +%B =full name of month will be shown only
+
+
+b)
+cal = show calendar
+cal feb 1996
+
+c)
+bc =is basic calculator in linux. after typing this command one can do basic calculator operations
+
+d)
+echo = echo command in linux is used to display line of text/string that are passed as an argument .
+1. \b  : it removes all the spaces in between the text
+2. \r : carriage return with backspace interpreter ‘-e‘ to have specified carriage return in output.
+3. \v : this option is used to create vertical tab spaces.
+4. \a : alert return with backspace interpreter ‘-e‘ to have sound alert.
+5. echo * : this command will print all files/folders, similar to ls command .
+6. -n : this option is used to omit echoing trailing newline .
+
+e)who = The who command is used to get information about currently logged in user on to system
+
+f) whoami = To display system’s username
+
+g) logname = print user´s login name,Print the name of the current user
+
+h) uname = uname is a command-line utility that prints basic information about the operating system name and system hardware
+
+i) seq = seq command in Linux is used to generate numbers from FIRST to LAST in steps of INCREMENT. It is a very useful command where we had to generate list of numbers in while, for, until loop.
+
+1. seq LAST : When only one argument is given then it produces numbers from 1 to LAST in step increment of 1. If the LAST is less than 1, then is produces no output.
+
+2. seq FIRST LAST : When two arguments are given then it produces numbers from FIRST till LAST is step increment of 1. If LAST is less than FIRST, then it produces no output
+
+3. seq FIRST INCREMENT LAST : When three arguments are given then it produces numbers from FIRST till LAST in step of INCREMENT. If LAST is less than FIRST, then it produces no output.
+
+j) clear = clear screen.
+
+
+
+Q 2 a)
+mkdir a b c
+cd a
+touch a.txt b.txt c.txt
+cd (to come out of folder)
+cd b
+touch a.txt b.txt c.txt
+Cd
+cd c
+touch a.txt b.txt c.txt
+cp -r c a
+
+b)  mv b c
+
+
+c) alias bhargav="ls -lh"
+
+d) mv a cdac
+
+
+Q3 a)
+touch file1.txt file2.txt file3.txt file4.txt file5.txt
+echo 'chetana'>> file1.txt file2.txt file3.txt file4.txt file5.txt  
+b)cat file1.txt file2.txt file3.txt file4.txt file5.txt
+c)touch file1.txt file2.txt file3.txt file4.txt file5.txt
+d) rm -r c cdac a
+
+Q 4)
+vi testfile
+i to insert text 
+escape to leave insert
+:wq to exit
+a)cat testfile
+b)cat -n testfile
+c) tac testfile
+d) cat file1 file2 file3
+
+Q 5)
+a)column filename.txt
+b)sort filename.txt
+ sort -r filename.txt
+c)mkdir .aa .bb .c.txt 
+ls -a
+d)touch -a file1.txt file2.txt
+ls -t 
+ls -rt
+e)ls -r
+f)ls -l
+g)ls -ld
+
+
+
+1)mkdir chetana
+  touch a.txt b.txt c.txt dtxt
+  chmod u-rwx chetana
+
+a)chmod u+rw- bar
+b)chmod +r--
+c) chmod +x
+
+2)chmod +x chetana
+
+3)chmod -wx chetana	
+
+4)echo * chetana	
+
+5)echo * /etc/
+
+6)find /etc -type f -name "*.conf"
+
+7)echo 'Hiiii' >> a.txt
+
+1
+
+mkdir d
+cd d
+touch d.txt 
+touch .hidden.txt
+d.
+mkdir a
+cd a
+touch a.txt 
+touch .hidden1.txt
+b.mkdir b
+touch b.txt 
+touch .hidden2.txt
+
+
+2)chmod a=r c
+
+3)permission denied
+
+4)mkdir dac1
+
+5)chmod +rw b
+
+6)mkdir dac2
+
+7)touch dac1.txt
+
+8)mv c copied_dir
+
+9)chmod +x copied_dir
+
+10)ls
+
+11)permission denied for hidden file,c.txt file
+
+12)mv a/b/dac1/ a
+
+13)sudo chmod
+
+14)chmod o+rwx a
+
+15)mkdir sample
+
+16)mkdir x
+
+17)mv  x a
+
+18)mkdir dac
+
+21)chmod a=rwx a
+
+25)rm b.txt
+
+
+
+
+
